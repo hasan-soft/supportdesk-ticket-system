@@ -6,7 +6,7 @@ import Container from "./Container";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-gray-300 px-8 pt-12 ">
+    <footer className="bg-black text-gray-300 px-8 pt-12">
       <Container>
         <div className="grid md:grid-cols-5 gap-8">
           <div>
@@ -41,6 +41,7 @@ const Footer = () => {
               <li><a href="#">Join Us</a></li>
             </ul>
           </div>
+          {/* social links */}
           <div>
             <h4 className="text-white text-lg font-semibold mb-4">Social Links</h4>
             <ul className="space-y-1 text-base">
@@ -58,5 +59,4 @@ const Footer = () => {
     </footer>
   );
 };
-
 export default Footer;

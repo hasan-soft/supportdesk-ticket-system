@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "Login Issue",
+    "description": "User unable to log into the system with valid credentials.",
+    "customer": "John Doe",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-09-20T10:15:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Payment Failure",
+    "description": "Payment gateway is rejecting valid credit card transactions.",
+    "customer": "Sarah Lee",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2025-09-19T14:30:00Z"
+  },
+  {
+    "id": 3,
+    "title": "UI Bug on Dashboard",
+    "description": "The dashboard widgets overlap on smaller screen sizes.",
+    "customer": "Michael Chen",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2025-09-18T09:45:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Password Reset Not Working",
+    "description": "Password reset link does not arrive via email.",
+    "customer": "Emily Davis",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2025-09-17T17:20:00Z"
+  },
+  {
+    "id": 5,
+    "title": "Slow System Performance",
+    "description": "System response is very slow during peak hours.",
+    "customer": "David Wilson",
+    "priority": "Low",
+    "status": "In Progress",
+    "createdAt": "2025-09-15T11:05:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Report Export Error",
+    "description": "Exported reports are missing some rows of data.",
+    "customer": "Sophia Brown",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2025-09-14T08:10:00Z"
+  },
+  {
+    "id": 7,
+    "title": "Email Notification Delay",
+    "description": "Email alerts are being sent several hours late.",
+    "customer": "James Miller",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2025-09-13T21:40:00Z"
+  },
+  {
+    "id": 8,
+    "title": "Mobile App Crash",
+    "description": "App crashes when navigating to the settings page.",
+    "customer": "Olivia Martin",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-09-12T15:25:00Z"
+  },
+  {
+    "id": 9,
+    "title": "Incorrect Invoice Amount",
+    "description": "Invoice shows double the actual amount for some users.",
+    "customer": "Ethan Johnson",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2025-09-11T13:50:00Z"
+  },
+  {
+    "id": 10,
+    "title": "Search Function Not Working",
+    "description": "No results are returned when searching for known items.",
+    "customer": "Ava Thompson",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2025-09-10T07:15:00Z"
+  },
+  {
+    "id": 11,
+    "title": "Security Vulnerability Reported",
+    "description": "External researcher reported an XSS vulnerability.",
+    "customer": "CyberSec Team",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2025-09-09T12:00:00Z"
+  },
+  {
+    "id": 12,
+    "title": "Feature Request: Dark Mode",
+    "description": "Customer requested dark mode for better usability.",
+    "customer": "Liam Anderson",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2025-09-08T18:35:00Z"
+  }
+]

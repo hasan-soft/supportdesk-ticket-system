@@ -1,12 +1,11 @@
-
 import Container from './Container';
-
 const Navbar = () => {
     return (
         <div className=" bg-white border-b-2 border-gray-200">
             <Container>
+                {/* menu area */}
                 <nav className="px-5 py-4 flex justify-between items-center">
-                    <h1 className="md:text-xl text-lg font-bold">CS — Ticket System</h1>
+                    <a href="#" className="md:text-xl text-lg font-bold">CS — Ticket System</a>
                     <div className="md:flex hidden items-center ml-auto gap-6">
                         <a href="#" className="text-gray-600">
                             Home
@@ -27,8 +26,8 @@ const Navbar = () => {
                         <a href="#" className="text-gray-600">
                             Contact
                         </a>
-                        
                     </div>
+                    {/* button right */}
                     <div className="ml-5">
                         <button className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white px-4 py-1 rounded-md hover:cursor-pointer">
                             + New Ticket
@@ -39,5 +38,4 @@ const Navbar = () => {
         </div>
     );
 };
-
 export default Navbar;

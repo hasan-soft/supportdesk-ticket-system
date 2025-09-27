@@ -1,16 +1,32 @@
-# React + Vite
+<!-- Questions And Answer for Assignment-07 -->
+Question-01: What is JSX, and why is it used?
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ans: JSX is from of Javascript XML. syntax extension for JavaScrip XML.write code look very same to HTML inside JavaScript files. It is used in React to describe the structure of the user interface.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Question-02: What is the difference between State and Props?
 
-## Expanding the ESLint configuration
+Ans: Use State for data that the component need to modify form input, toggle, counter. Use Props for passing data from parent to child component configuration, display data, event handler.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+
+
+Question-03: What is the useState hook, and how does it work?
+
+Ans: useState hook is a fundamental React hook that allows functional components to manage local state.useState hook works by leveraging React's internal state management system to track and update component state across re-renders. When you call useState for the first time, React creates a state slot in its internal memory associated with that specific component instance and hook call position,
+
+
+
+Question-04: How can you share state between components in React?
+
+Ans: most common approach is lifting state up. where you move the share state to the nearest common parent component and pass it down as props to child component that need it.with callback function to allow children to update the state.
+
+
+
+
+Question-05: How is event handling done in React?
+
+Ans:  React uses camelCase name convention for event handler like onClick, onChange, onSubmit instead of the lowercase HTML attribute, and handler are pass as function to JSX element props. When an event occur, React creates a SyntheticEvent object that wraps the native DOM event, providing the same methods and property.
