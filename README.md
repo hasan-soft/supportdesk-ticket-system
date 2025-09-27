@@ -16,7 +16,7 @@ Ans: Use State for data that the component need to modify form input, toggle, co
 
 Question-03: What is the useState hook, and how does it work?
 
-Ans: useState hook is a fundamental React hook that allows functional components to manage local state.useState hook works by leveraging React's internal state management system to track and update component state across re-renders. When you call useState for the first time, React creates a state slot in its internal memory associated with that specific component instance and hook call position,
+Ans: useState hook is a fundamental React hook that allow functional component to manage local useState hook work by React internal state management system to track and update component state across re-renders. When you call useState for the first time, React create a state slot in its internal memory with that specific component instance and hook call position.
 
 
 

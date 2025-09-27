@@ -4,8 +4,8 @@ const Navbar = () => {
         <div className=" bg-white border-b-2 border-gray-200">
             <Container>
                 {/* menu area */}
-                <nav className="px-5 py-4 flex justify-between items-center">
-                    <a href="#" className="md:text-xl text-lg font-bold">CS — Ticket System</a>
+                <nav className="px-5 py-4 flex items-center justify-between">
+                    <a href="#" className="md:text-xl font-bold text-lg">CS — Ticket System</a>
                     <div className="md:flex hidden items-center ml-auto gap-6">
                         <a href="#" className="text-gray-600">Home</a>
                         <a href="#" className="text-gray-600">FAQ</a>

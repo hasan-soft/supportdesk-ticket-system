@@ -14,19 +14,16 @@ const Problem = ({ onCardClick, onComplete }) => {
             .then((res) => res.json())
             .then((data) => {
                 const updatedTickets = data.map(ticket => ({ ...ticket, status: "Open" }));
-                console.log("Loaded tickets:", updatedTickets);
                 setTickets(updatedTickets);
             })
-            .catch((error) => console.error("Error loading tickets:", error));
+            .catch((error) =>error());
     }, []);
 
     useEffect(() => {}, [tickets]);
 
     const handleStatusToggle = (ticketId) => {
-        console.log("Toggling status for ticket ID:", ticketId);
         setTickets(tickets.map((ticket) => {
             if (ticket.id === ticketId && ticket.status === "Open") {
-                console.log(`Changing ticket ${ticketId} status to: In Progress`);
                 return { ...ticket, status: "In Progress" };
             }
             return ticket;
@@ -34,7 +31,6 @@ const Problem = ({ onCardClick, onComplete }) => {
     };
 
     const handleCardClick = (ticket) => {
-        console.log("Card clicked for ticket ID:", ticket.id);
         if (ticket.status === "Open") {
             handleStatusToggle(ticket.id);
             onCardClick();
@@ -47,7 +43,6 @@ const Problem = ({ onCardClick, onComplete }) => {
     };
 
     const handleComplete = (ticketId) => {
-        console.log("Complete button clicked for ticket ID:", ticketId);
         const ticketToResolve = selectedTickets.find((t) => t.id === ticketId);
         if (ticketToResolve) {
             setResolvedTickets([...resolvedTickets, ticketToResolve]);
@@ -55,7 +50,6 @@ const Problem = ({ onCardClick, onComplete }) => {
             setTickets(tickets.filter((t) => t.id !== ticketId));
             onComplete();
             toast.success("Completed!");
-            console.log(`Ticket ${ticketId} removed from tickets and moved to Resolved Task with status: ${ticketToResolve.status}`);
         }
     };
 
