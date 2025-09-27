@@ -14,7 +14,7 @@ const Footer = () => {
               CS — Ticket System
             </h3>
             <p className="text-sm">
-              The CS — Ticket System is a software platform primarily designed to manage customer support. It allows users to submit their issues, complaints, or requests, which are referred to as “tickets.” Each ticket is assigned a unique ID for tracking purposes, enabling the support team to monitor which issues have been resolved.
+              The CS — Ticket System is a software platform primarily designed to manage customer support. It allows users to submit their issues, complaints, or requests, which are referred to as “ticket.” Each ticket is assigned a unique ID for tracking purposes, enabling the support team to monitor which issues have been resolved.
             </p>
           </div>
           <div>
