@@ -7,25 +7,12 @@ const Navbar = () => {
                 <nav className="px-5 py-4 flex justify-between items-center">
                     <a href="#" className="md:text-xl text-lg font-bold">CS — Ticket System</a>
                     <div className="md:flex hidden items-center ml-auto gap-6">
-                        <a href="#" className="text-gray-600">
-                            Home
-                        </a>
-                        <a href="#" className="text-gray-600">
-                            FAQ
-                        </a>
-                        <a href="#" className="text-gray-600">
-                            Changelog
-                        </a>
-
-                        <a href="#" className="text-gray-600">
-                            Blog
-                        </a>
-                        <a href="#" className="text-gray-600">
-                            Download
-                        </a>
-                        <a href="#" className="text-gray-600">
-                            Contact
-                        </a>
+                        <a href="#" className="text-gray-600">Home</a>
+                        <a href="#" className="text-gray-600">FAQ</a>
+                        <a href="#" className="text-gray-600">Changelog</a>
+                        <a href="#" className="text-gray-600">Blog</a>
+                        <a href="#" className="text-gray-600">Download</a>
+                        <a href="#" className="text-gray-600">Contact</a>
                     </div>
                     {/* button right */}
                     <div className="ml-5">
