@@ -1,4 +1,6 @@
-<!-- Questions And Answer for Assignment-07 -->
+live link for desktop view: 
+
+<!-- Questions And Answer -->
 Question-01: What is JSX, and why is it used?
 
 Ans: JSX is from of Javascript XML. syntax extension for JavaScrip XML.write code look very same to HTML inside JavaScript files. It is used in React to describe the structure of the user interface.

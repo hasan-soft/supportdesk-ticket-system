@@ -11,10 +11,10 @@ const Footer = () => {
         <div className="grid md:grid-cols-5 gap-8">
           <div>
             <h3 className="text-white text-lg font-semibold mb-4">
-              CS — Ticket System
+              Support-Desk — Ticket System
             </h3>
             <p className="text-sm">
-              The CS — Ticket System is a software platform primarily designed to manage customer support. It allows users to submit their issues, complaints, or requests, which are referred to as “ticket.” Each ticket is assigned a unique ID for tracking purposes, enabling the support team to monitor which issues have been resolved.
+              The Support-Desk — Ticket System is a software platform primarily designed to manage customer support. It allows users to submit their issues, complaints, or requests, which are referred to as “ticket.” Each ticket is assigned a unique ID for tracking purposes, enabling the support team to monitor which issues have been resolved.
             </p>
           </div>
           <div>
@@ -45,15 +45,15 @@ const Footer = () => {
           <div>
             <h4 className="text-white text-lg font-semibold mb-4">Social Links</h4>
             <ul className="space-y-1 text-base">
-              <li className='flex items-center cursor-pointer'><span className='mr-1'><FaSquareXTwitter size={20} color="white" /></span>@CS — Ticket System</li>
-              <li className='flex items-center cursor-pointer'><span className='mr-1'><FaLinkedin size={20} color="white" /></span>@CS — Ticket System</li>
-              <li className='flex items-center cursor-pointer'><span className='mr-1'><MdOutlineFacebook size={20} color="white" /></span>@CS — Ticket System</li>
-              <li className='flex items-center cursor-pointer'><span className='mr-1'><MdEmail size={20} color="white" /></span>support@cst.com</li>
+              <li className='flex items-center cursor-pointer'><span className='mr-1'><FaSquareXTwitter size={20} color="white" /></span>@Support-Desk — Ticket System</li>
+              <li className='flex items-center cursor-pointer'><span className='mr-1'><FaLinkedin size={20} color="white" /></span>@Support-Desk — Ticket System</li>
+              <li className='flex items-center cursor-pointer'><span className='mr-1'><MdOutlineFacebook size={20} color="white" /></span>@Support-Desk — Ticket System</li>
+              <li className='flex items-center cursor-pointer'><span className='mr-1'><MdEmail size={20} color="white" /></span>support@support-desk.com</li>
             </ul>
           </div>
         </div>
         <div className="text-center pt-20 pb-7">
-          <p className="text-white text-sm md:text-base">© 2025 CS — Ticket System. All rights reserved.</p>
+          <p className="text-white text-sm md:text-base">© 2025 Support-Desk — Ticket System. All rights reserved.</p>
         </div>
       </Container>
     </footer>
